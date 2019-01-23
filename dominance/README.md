@@ -9,17 +9,18 @@
 ### Prerequisites. R version 3.4.1
 
 The following packages should to be installed:
-⋅⋅* "gplots"
-⋅⋅* "tidyverse"
-⋅⋅* "broom"
-⋅⋅* "here"
-⋅⋅* "data.table"
-⋅⋅* "RUVSeq"
-⋅⋅* "edgeR"
-⋅⋅* "statmod"
 ⋅⋅* "RColorBrewer"
-⋅⋅* "drake"
-
+⋅⋅* "edgeR"
+⋅⋅* "corrplot"
+⋅⋅* "lmPerm"
+⋅⋅* "ggplot2"
+⋅⋅* "d3radarR"
+⋅⋅* "ggradar"
+⋅⋅* "doBy"
+⋅⋅* "dplyr"
+⋅⋅* "plotly"
+⋅⋅* "plyr"
+⋅⋅* "fmsb"
 ### Example
 ```r
 install.packages("gplots")
