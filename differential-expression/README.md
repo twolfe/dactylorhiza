@@ -35,8 +35,7 @@ biocLite("edgeR")
 The following should be followed to obtain the data inside of R:
 1. Open the report folder
 2. Start R(version 3.4.1)
-3. Run source(make.R)
-3 bis. It is possible that you must modify paths to correspond on your system. 
+3. Run source(make.R). It is possible that you must modify paths to correspond on your system. 
 4. The variables are now loaded.
 
 ### Example
