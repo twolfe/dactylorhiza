@@ -20,6 +20,9 @@ The following packages should to be installed:
 ⋅⋅* "RColorBrewer"
 ⋅⋅* "drake"
 
+### Data
+Raw RNA count data is found in /data/counts52KPS.txt
+
 ### Example
 ```r
 install.packages("gplots")
@@ -38,6 +41,7 @@ The following should be followed to obtain the data inside of R:
 ### Example
 ```r
 dat <- readd(dat)
+DE-results <- readd(FDRres)
 ```
 
 You can now work with dat (The raw count data)
