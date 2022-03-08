@@ -32,7 +32,7 @@ The following should be followed to obtain the data inside of R:
 
 ### Example
 ```r
-dat <- readd(dat)
+circ <- readd(circ)
 ```
 
 You can now work with dat (The raw count data)
