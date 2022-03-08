@@ -13,7 +13,7 @@ The following packages should to be installed:
 ..* "GOplot"
 
 ### Data
-Raw RNA count data is found in /data/counts52KPS_de_results.txt
+The differential expression results are found in /data/counts52KPS_de_results.txt. These results follow the pipeline in https://github.com/twolfe/dactylorhiza/tree/master/differential-expression
 
 ### Example
 ```r

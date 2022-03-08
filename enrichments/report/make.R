@@ -8,15 +8,17 @@ pkgconfig::set_config("drake::strings_in_dots" = "literals")
 
 ## if you need to rerun everything
 ## drake::clean(destroy = TRUE)
+
+## Should be modified to correspond to your system
 source("src/functions.R")
 
 #GENOME STUFF
 geneID2GO <- readMappings(file = "/home/thomas/Documents/phd/de/enrichments/all_annotations_justGO.txt")
 GO2geneID <- inverseList(geneID2GO)
 geneNames <- names(geneID2GO)
-deGenes <- read.table("/home/thomas/Documents/phd/de/enrichments/both.transcripts.de.txt")
-resEdgeRtopTags <- read.table("/home/thomas/Documents/phd/de/52KPS/counts52KPS_de_results.txt")
-dat.filtered <- read.table("/home/thomas/Documents/phd/de/enrichments/datFileredCounts.txt", header = T)
+deGenes <- read.table("data/both.transcripts.de.txt")
+resEdgeRtopTags <- read.table("data/counts52KPS_de_results.txt")
+dat.filtered <- read.table("data/datFileredCounts.txt", header = T)
 head(geneNames)
 
 plan <- drake_plan(
