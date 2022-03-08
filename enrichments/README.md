@@ -13,7 +13,8 @@ The following packages should to be installed:
 ..* "GOplot"
 
 ### Data
-The differential expression results are found in /data/counts52KPS_de_results.txt. These results follow the pipeline in https://github.com/twolfe/dactylorhiza/tree/master/differential-expression
+The differential expression results are found in /data/counts52KPS_de_results.txt. These results follow the pipeline in https://github.com/twolfe/dactylorhiza/tree/master/differential-expression.
+More details about each file is found in the data/README.md
 
 ### Example
 ```r
