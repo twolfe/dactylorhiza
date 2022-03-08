@@ -13,7 +13,7 @@ pkgconfig::set_config("drake::strings_in_dots" = "literals")
 source("src/functions.R")
 
 #GENOME STUFF
-geneID2GO <- readMappings(file = "/home/thomas/Documents/phd/de/enrichments/all_annotations_justGO.txt")
+geneID2GO <- readMappings(file = "data/all_annotations_justGO.txt")
 GO2geneID <- inverseList(geneID2GO)
 geneNames <- names(geneID2GO)
 deGenes <- read.table("data/both.transcripts.de.txt")
